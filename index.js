@@ -3,9 +3,11 @@
 import Vue from 'vue';
 import { BButton } from 'bootstrap-vue'
 import { ModalPlugin } from 'bootstrap-vue'
+import SPAStyles from './bundle.js'
+Vue.use(SPAStyles)
 Vue.use(ModalPlugin)
 
-import './style.css';
+//import './style.css';
 
 Vue.component('b-button', BButton)
 
